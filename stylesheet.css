@@ -1,0 +1,151 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(225, 100%, 94%);
+}
+
+div.container-fluid {
+    position: relative;
+}
+
+.background-image {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+
+.another-container, 
+.main-container, 
+.order, 
+.order-container,
+p,
+.annual-plan-box,
+.annual-plan,
+.annual-plan-change,
+.payment {
+    position:relative;
+    z-index: 5;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div .card-image img {
+    margin-top: 25%;
+    margin-bottom: -10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.order {
+    width: 450px; 
+    background: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 0px 1px hsl(224deg 23% 55%), 0px 20px 40px hsl(224deg 23% 55% / 20%);
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    row-gap: 25px;
+}
+
+p {
+    font-size: 16px;
+    width: 300px;
+    
+}
+
+.caption {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-plan-box {
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.annual-plan-icon {
+    display: flex;
+    margin-right: 20px;
+}
+
+.annual-plan {
+    width: 180px;
+}
+
+.price {
+    width: 200px;
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-plan-change a {
+    font-weight: bold;
+}
+
+.annual-plan-change a:hover {
+    text-decoration: none;
+}
+
+.payment {
+    color: white;
+}
+
+div.payment button {
+    background: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    display: block;
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 20px 10px hsl(245deg 75% 52% / 10%);
+    font-size: 16px;
+}
+
+div.payment button:hover {
+    opacity: 0.7;
+}
+
+p.cancel {
+    text-align: center;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    margin-top: 3%;
+}
+
+p.cancel:hover {
+    color: black;
+}
+
+.attribution { 
+    margin-top: 10%;
+    font-size: 11px; 
+    text-align: center; }
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
