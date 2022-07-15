@@ -20,7 +20,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution here](https://github.com/gp0710/order-summary-card)
 - Live Site URL: [live site here](https://gp0710.github.io/order-summary-card/)
 
 ## My process
